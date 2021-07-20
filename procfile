@@ -1,1 +1,1 @@
-web:node ./nodeserver/index.js
+web:node index
