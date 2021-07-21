@@ -1,6 +1,6 @@
 const { Socket } = require('socket.io');
-
-const io = require('socket.io')(3000, {
+const PORT = 3000;
+const io = require('socket.io')(PORT, {
     cors: {
         origin: "*",
         methods: ["GET", "POST"]
