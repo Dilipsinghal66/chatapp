@@ -2,6 +2,7 @@
   "name": "chat-app",
   "version": "1.0.0",
   "description": "",
+  "proxy": "http://dilipappfirst.herokuapp.com/",
   "main": "index.js",
   "dependencies": {
     "dotenv": "^10.0.0",
